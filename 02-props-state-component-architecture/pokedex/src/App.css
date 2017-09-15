@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+}
+.pokedex>div{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 70vh;
+}
+.pokedex>h1{
+  color: grey;
+}
+.card{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 20px;
+  background-color: lightgrey;
+  width: 180px;
+  height: 220px;
+}
+.card *{
+  margin: 0;
+  padding: 0;
+  display: flex;}
+.card h1{
+  font-size: 1.5em;
+  color: blue;
+}
+.card p{
+  font-weight: bold;
+}
+.card img{
+  width: 70%;
+}
