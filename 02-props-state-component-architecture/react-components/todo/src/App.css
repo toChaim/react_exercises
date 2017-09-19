@@ -1,6 +1,37 @@
-*{
+*, ol, li{
 	border: 1px dashed red;
+}
+h1, h2{
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+p{
+	text-align: justify;
+}
+ol{
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+	width: 98%;
 }
 .done{
   color: orange;
+  text-decoration: line-through;
+}
+.Todo{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.Todo .title, .Todo .description{
+	display: flex;
+	width: 40%;
+}
+.Todo .controle{
+	width: 5%;
+	display: flex;
+}
+.Todo h1, .Todo h2, .Todo p, .Todo form, .Todo input{
+	width: 100%;
 }

@@ -1,16 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
 import TodoList from "./TodoList.js"
 import './App.css';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
+const App = () => {
+      return <div className="App">
         <h1>Todo App</h1>
           <TodoList />
-      </div>
-    );
-  }
+      </div>;
 }
 
 export default App;
